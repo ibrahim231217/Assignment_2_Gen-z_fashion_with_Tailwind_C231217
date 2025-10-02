@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap"    rel="stylesheet" />
+
+  <style>
+    * {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .bebas {
+      font-family: "Bebas Neue", sans-serif;
+    }
+
+   .btn-primary {
+  background-color: #0f172a;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 24px; 
+  border-radius: 8px; 
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1e3a8a;
+}
+
+
+
+  </style>
+
+  <title>Gen-Z Fashion ibrahim C231217</title>
+</head>
+
+<body class="bg-[#FFFBF0]">
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+<!-- ================= HEADER / NAVBAR (CSS-only mobile menu) ================= -->
+<header class="fixed top-0 w-full bg-[#FFFBF0] shadow-md z-50">
+
+  <!-- 1) Hidden checkbox (must be a direct child of header, BEFORE the dropdown) -->
+  <input id="menu-toggle" type="checkbox" class="hidden peer" />
+
+  <!-- 2) Main nav (label inside nav toggles the checkbox via for="menu-toggle") -->
+  <nav class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <!-- Logo -->
+    <div class="flex items-center gap-2">
+      <img src="icons/logo_icon.png" alt="Logo" class="w-[55px] h-[40px]" />
+      <h1 class="text-2xl font-bold">
+        <span class="text-green-600">Gen Z</span> Fashion
+      </h1>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex gap-10 font-medium">
+      <li><a href="#home" class="hover:text-green-600">Home</a></li>
+      <li><a href="#products" class="hover:text-green-600">Products</a></li>
+      <li><a href="#reviews" class="hover:text-green-600">Reviews</a></li>
+      <li><a href="#contact" class="hover:text-green-600">Contact</a></li>
+    </ul>
+
+    <!-- Mobile toggle label (clicking this checks/unchecks the hidden checkbox) -->
+    <label for="menu-toggle" class="md:hidden cursor-pointer">
+      <i class="fa fa-bars text-2xl"></i>
+      <!-- NOTE: this simple label only shows the hamburger icon.
+           Toggling hamburger -> X *without JS* is possible but needs a different DOM layout.
+           If you want the X icon, I can add that option (one small JS line) or a CSS-only trick. -->
+    </label>
+  </nav>
+
+ <!-- Mobile Dropdown -->
+<div class="hidden peer-checked:block md:hidden absolute top-full right-0 bg-[#FFFBF0] w-[70%] max-w-15  shadow-lg">
+  <ul class="flex flex-col items-center gap-3 py-3 font-medium">
+    <li><a href="#home" class="hover:text-green-600">Home</a></li>
+    <li><a href="#products" class="hover:text-green-600">Products</a></li>
+    <li><a href="#reviews" class="hover:text-green-600">Reviews</a></li>
+    <li><a href="#contact" class="hover:text-green-600">Contact</a></li>
+  </ul>
+</div>
+
+
+
+</header>
+
+
+
+
+  
+</body>
+
+</html>
