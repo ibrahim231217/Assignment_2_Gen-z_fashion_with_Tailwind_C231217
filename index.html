@@ -113,53 +113,15 @@
 
   </div>
 
-  <!-- Right: Carousel -->
-<div class="md:w-1/2 w-full h-[300px] md:h-[450px] relative flex items-center justify-center">
-  <div id="hero-carousel" class="relative w-full h-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-full overflow-hidden flex items-center justify-center">
-
-      <!-- Slide 1 -->
-      <div class="duration-700 ease-in-out w-full h-full flex items-center justify-center" data-carousel-item="active">
-        <div class="w-[50%] h-[90%] rounded-3xl shadow-md overflow-hidden">
-          <img src="images/Men’s Modern Black Leather Jacket.jpg" class="w-auto h-auto" alt="Model 1">
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="duration-700 ease-in-out w-full h-full flex items-center justify-center" data-carousel-item>
-        <div class="w-[50%] h-[90%] rounded-3xl shadow-md overflow-hidden">
-          <img src="images/new.jpg" class="w-auto h-auto" alt="Model 2">
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="duration-700 ease-in-out w-full h-full flex items-center justify-center" data-carousel-item>
-        <div class="w-[50%] h-[90%] rounded-3xl shadow-md overflow-hidden">
-          <img src="images/Jaqueta de couro slim.jpg" class="w-auto h-auto " alt="Model 3">
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Controls -->
-    <button type="button" class="absolute top-1/2 left-2 -translate-y-1/2 z-30 p-2 bg-white/30 rounded-full hover:bg-white/50" data-carousel-prev>
-      <i class="fa fa-chevron-left text-black"></i>
-    </button>
-
-    <button type="button" class="absolute top-1/2 right-2 -translate-y-1/2 z-30 p-2 bg-white/30 rounded-full hover:bg-white/50" data-carousel-next>
-      <i class="fa fa-chevron-right text-black"></i>
-    </button>
-
-  </div>
+<div class=" w-full md:w-[440px] h-[500px] md:h-[650px] flex items-center justify-center"> 
+  <img src="images/model.png" alt="Model" class="w-full h-full object-contain" /> 
 </div>
 
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
 
-<!-- <!- PRODUCTS  --> 
+<!-- PRODUCTS  -->
   <main id="products" class="max-w-7xl mx-auto px-6 mt-24">
   <h3 class="text-4xl md:text-5xl font-bold bebas text-blue-950 mb-12">
     Our Jackets
@@ -286,7 +248,7 @@
 
 </main>
 
-<!-- ================= REVIEWS ================= -->
+<!--  REVIEWS  -->
 <section id="reviews" class=" py-20 mt-24">
   <div class="max-w-7xl mx-auto px-6">
     <h3 class="text-4xl md:text-5xl font-bold bebas text-blue-950 mb-12">Customer Reviews</h3>
@@ -346,9 +308,61 @@
       </div>
     </div>
   </section>
+<section class="bg-blue-100 text-black py-20">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Left: Logo -->
+    <div class="flex justify-center md:justify-start mb-6 md:mb-0">
+      <img src="icons/logo_icon.png" alt="Brand Logo" class="w-40 h-40 rounded-full shadow-lg">
+    </div>
+    <!-- Right: Text -->
+    <div class="text-center md:text-left">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">About Us</h2>
+      <p class="text-lg leading-relaxed">
+        At <span class="font-bold">GenZ Fashion </span>, we design modern jackets and coats 
+        that combine comfort with street-style fashion. Our collections are made for trendsetters 
+        who want to stay warm and stylish through every season.
+      </p>
+    </div>
+  </div>
+</section>
 
-  
-  <!-- ABOUT & NEWSLETTER SECTION +  ABOUT US SECTION  -->
+<!-- NEWSLETTER SECTION -->
+<section class="bg-blue-100 py-20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-3xl md:text-4xl font-bold mb-4">Join Our Fashion Community</h3>
+    <p class="mb-6 text-gray-600 text-lg">
+      Subscribe now and be the first to know about our latest collections, offers, and fashion tips.
+    </p>
+    
+    <form class="flex flex-col sm:flex-row gap-4 justify-center">
+      <input type="email" placeholder="Enter your email" 
+             class="flex-1 border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 max-w-md">
+      <button type="submit" 
+              class="bg-blue-950 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800 transition">
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+
+  <!--  FOOTER  -->
+  <footer class="bg-blue-950 text-white py-8 shadow-md ">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>© 2025 Gen-Z Fashion. All rights reserved.</p>
+      <ul class="flex gap-6 mt-4 md:mt-0">
+        <li><a href="#home" class="hover:text-green-400">Home</a></li>
+        <li><a href="#products" class="hover:text-green-400">Products</a></li>
+        <li><a href="#contact" class="hover:text-green-400">Contact</a></li>
+      </ul>
+      <div class="flex gap-4 mt-4 md:mt-0">
+        <a href="#"><i class="fab fa-facebook text-xl hover:text-green-400"></i></a>
+        <a href="#"><i class="fab fa-instagram text-xl hover:text-green-400"></i></a>
+        <a href="#"><i class="fab fa-twitter text-xl hover:text-green-400"></i></a>
+      </div>
+    </div>
+  </footer>
+
 
 
   
